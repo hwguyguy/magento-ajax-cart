@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Hwguyguy_AjaxCart>
+			<version>0.1.0</version>
+		</Hwguyguy_AjaxCart>
+	</modules>
+	<frontend>
+		<routers>
+			<ajaxcart>
+				<use>standard</use>
+				<args>
+					<module>Hwguyguy_AjaxCart</module>
+					<frontName>ajaxcart</frontName>
+				</args>
+			</ajaxcart>
+		</routers>
+	</frontend>
+</config>
